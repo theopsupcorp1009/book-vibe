@@ -2,7 +2,7 @@
 
 import { BooksContext } from "@/contexts/BooksContext";
 import { Ibook } from "@/types/Book.type";
-import React, { useContext } from "react";
+import { useContext } from "react";
 import { toast } from "react-toastify";
 
 const ReadButton = ({book}: {book: Ibook}) => {

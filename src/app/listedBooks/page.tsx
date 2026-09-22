@@ -1,12 +1,9 @@
 "use client";
 
 import { BooksContext } from "@/contexts/BooksContext";
-import React, { useContext, useState } from "react";
-import BookCard from "../components/shared/BookCard";
+import { useContext, useState } from "react";
 import { Ibook } from "@/types/Book.type";
-import Image from "next/image";
 import ListedBooksCard from "../components/shared/ListedBooksCard";
-import { read } from "fs";
 
 const ListedBooksPage = () => {
   const { readBooks, wishList } = useContext(BooksContext);
