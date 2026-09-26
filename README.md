@@ -12,6 +12,11 @@ Book Vibe is a book discovery and tracking app built with Next.js. Browse a cata
 - **Read Books stats** — a bar chart (via Recharts) visualizing the page counts of books you've read
 - **Toast notifications** — instant feedback (via React Toastify) when you add a book to your wishlist or read list
 
+## Visit
+
+- **Live Site:** https://book-vibe-ashy-xi.vercel.app/
+- **GitHub Repository:** https://github.com/theopsupcorp1009/book-vibe
+
 ## Tech Stack
 
 - [Next.js 16](https://nextjs.org) (App Router)
